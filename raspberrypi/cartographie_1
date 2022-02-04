@@ -40,4 +40,4 @@ def ajouter_csv():
     o = open('cartographie.csv',typ,newline='')
     m = csv.writer(o)
     m.writerow(data)
-    o.close()
+    o.close() 
